@@ -94,5 +94,4 @@ public class Demo extends Application {
         }
         return loader.load();
     }
-
 }
