@@ -33,7 +33,7 @@ To run the demo class xss.it.demo.Demo, use the following Gradle command:
 gradle run
 ```
 
-## 📸 Preview
+## 📸 Icons Finder Preview
 ![NfxListView Screenshot](images/img.png)
 
 ***
