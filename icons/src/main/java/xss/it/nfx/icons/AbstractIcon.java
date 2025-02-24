@@ -206,7 +206,7 @@ public abstract class AbstractIcon extends Text {
      * @param name  the name of the icon to be set
      */
     private void handleIcon(String name) {
-        String string = resource().getString(name);
+        String string = resource().getString(name.toUpperCase());
         if (string.isBlank())   {
             string= resource().getString(defaultIcon());
         }
