@@ -28,10 +28,10 @@ import javafx.scene.input.ClipboardContent;
 import javafx.scene.layout.VBox;
 import javafx.util.Callback;
 import javafx.util.Duration;
-import xss.it.nfx.controls.NfxCell;
-import xss.it.nfx.controls.NfxListView;
 import xss.it.nfx.icons.AbstractIcon;
 import xss.it.nfx.icons.Icon;
+import xss.it.nfx.list.NfxCell;
+import xss.it.nfx.list.NfxListView;
 
 import java.net.URL;
 import java.util.ResourceBundle;
