@@ -33,6 +33,9 @@ To run the demo class xss.it.demo.Demo, use the following Gradle command:
 gradle run
 ```
 
+## 📸 Preview
+![NfxListView Screenshot](images/img.png)
+
 ***
 ## 🤝 Feedback
 All are welcome to use and provide feedback on this library!
