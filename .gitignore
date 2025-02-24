@@ -1,0 +1,8 @@
+*/build/*
+*/gradle/*
+/gradle/
+/*/build/
+/.gradle/
+/.idea/
+/build/
+/demo/src/main/java/xss/it/demo/Util.java

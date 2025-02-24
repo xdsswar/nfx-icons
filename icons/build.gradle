@@ -1,0 +1,37 @@
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group 'xss.it.nfx.icons'
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+
+javafx {
+    version = '17.0.6'
+    modules = ['javafx.controls','javafx.graphics']
+}
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: '../libs')
+}
+
+jar{
+    archiveBaseName ='nfx-icons'
+    manifest {
+        attributes(
+                'name' : 'javafx-icons',
+                'version': version,
+                'description': 'JavaFx Icons lib',
+                'author': 'Xtreme Software Solutions (XSS&IT)'
+        )
+    }
+}
+repositories {
+    mavenCentral()
+}
+

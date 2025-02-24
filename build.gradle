@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'xss.it.icons'
+
+allprojects {
+    version = '1.0.2'
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+repositories {
+    mavenCentral()
+}

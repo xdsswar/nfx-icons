@@ -1,0 +1,117 @@
+.nfx-icon{
+    -nfx-icon-size : 60;
+    -fx-fill : #4b70e7;
+}
+.nfx-list-view,
+.nfx-list-view .scroll-pane,
+.nfx-list-view .scroll-pane .viewport{
+    -nfx-cell-height: 160 ;
+    -nfx-min-cell-width-break-point: 300;
+    -nfx-max-cells-per-row: 12;
+    -fx-background-color: #ffffff;
+}
+
+.nfx-list-view .nfx-content{
+    -fx-background-color: #ffffff;
+}
+.nfx-list-view .nfx-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.nfx-list-view .viewport {
+    -fx-background-insets: 0;
+    -fx-background-color: #ffffff;
+}
+
+
+
+.text-field{
+    -fx-min-height: 32;
+    -fx-border-color: #b4b2b2;
+    -fx-background-insets: 0;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-font-size: 13;
+    -fx-text-fill: #464646;
+}
+
+.text-field:focused,
+.text-field:selected{
+    -fx-border-color: #084d1d;
+}
+
+.icons-label{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: #727171;
+}
+
+.tab-header-area .tab-header-background {
+    -fx-background-color: #F3F3F3;
+}
+
+.tab-pane .tab{
+    -fx-background-color: #90a5e8;
+    -fx-background-insets: 0;
+    -fx-padding: 3 15 2 15;
+    -fx-border-color:#90a5e8;
+    -fx-border-radius: 15 15 0 0;
+    -fx-cursor: hand;
+}
+
+
+
+.tab-pane .tab-label{
+    -fx-font-size: 14;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #4b70e7;
+    -fx-border-color:#4b70e7;
+}
+
+.tab-pane .tab:selected * {
+    -fx-border-color: transparent;
+}
+
+.box-base{
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.box-button{
+    -fx-background-insets: 0;
+    -fx-background-color: #ffffff;
+    -fx-border-width: .6;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #494949;
+    -fx-cursor: hand;
+    -fx-text-fill: #4b70e7;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+.box-button:hover .nfx-icon{
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+.box-button:armed {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.box-button-copied{
+   -fx-text-fill: #16A085;
+    -fx-border-color: #16A085;
+}
