@@ -1,8 +1,9 @@
 plugins {
     id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'maven-publish'
 }
 
-group 'xss.it.nfx.icons'
+group 'xss.it.nfx'
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
@@ -34,4 +35,5 @@ jar{
 repositories {
     mavenCentral()
 }
+
 
