@@ -1,5 +1,3 @@
-
-
 package xss.it.nfx.icons;
 
 import javafx.scene.text.Font;

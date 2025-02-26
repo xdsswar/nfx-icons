@@ -1,5 +1,3 @@
-
-
 package xss.it.demo;
 
 import javafx.application.Application;
